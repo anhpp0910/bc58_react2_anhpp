@@ -1,0 +1,67 @@
+.header {
+  background-color: rgba(51, 51, 51, 0.5);
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.model img {
+  margin-top: 150px;
+  width: 300px;
+}
+
+.model__content {
+  position: relative;
+}
+
+.model__content .glasses {
+  position: absolute;
+  top: 92px;
+  left: 61px;
+  border: none;
+  background-color: transparent;
+  width: 180px;
+}
+
+.glasses__desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(51, 51, 51, 0.5);
+  text-align: left;
+  padding: 10px;
+}
+
+.glasses__desc h5,
+.glasses__desc p {
+  margin-bottom: 0;
+}
+
+.glasses-show {
+  margin-top: 50px;
+  background-color: #fff;
+  width: 70%;
+  margin: 50px auto;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+.glasses-show .col-4 {
+  height: 60px;
+  border: 1px solid rgba(51, 51, 51, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glasses-show button {
+  border: none;
+  background-color: transparent;
+}
+
+.glasses-show img {
+  width: 40%;
+}
